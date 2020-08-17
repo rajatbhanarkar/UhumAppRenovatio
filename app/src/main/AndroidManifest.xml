@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rennovatio.uhumapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".OurTeamActivity"></activity>
+        <activity android:name=".BuildAndBreathe" />
+        <activity android:name=".AttentionAndAwareness" />
+        <activity android:name=".DiscoverAndDream" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CoursesActivity" />
+        <activity android:name=".LangSelectActivity" />
+        <activity
+            android:name=".GetHelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GifPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhyListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PhysicalHealthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MusicPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MedListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MentalHealthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileSetupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnterNumberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WalkThroughActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

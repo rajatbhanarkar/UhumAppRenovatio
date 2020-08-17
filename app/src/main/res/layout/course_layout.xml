@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center">
+
+        <com.savantech.seekarc.SeekArc
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:arcColor="@color/bgcolor"
+            app:arcWidth="5dp"
+            app:startAngle="270"
+            app:thumbRadius="0dp"
+            app:progress="75"
+            app:thumbColor="@color/lightTextColor"
+            app:progressColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/opensans"
+            android:textSize="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="75%"
+            android:src="@drawable/mednewlogo"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dmsans"
+            android:text="Course 1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dmsans"
+            android:text="6/8 Completed"/>
+    </LinearLayout>
+
+</RelativeLayout>

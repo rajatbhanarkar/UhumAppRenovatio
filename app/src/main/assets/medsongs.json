@@ -1,0 +1,156 @@
+{
+  "bells": [
+    {
+      "name": "Bells With Intervals",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells%20With%20Intervals/20Minute%20-%20Bells%20With%20Intervals.mp3"
+    },
+    {
+      "name": "JustBells 15Min Intervals",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells%20With%20Intervals/45Minute%20-%20JustBells%2015Min%20Intervals.mp3"
+    },
+    {
+      "name": "JustBells 5Min Intervals",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells%20With%20Intervals/45Minute%20-%20JustBells%205Min%20Intervals.mp3"
+    },
+    {
+      "name": "JustBells",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells/10Minute-JustBells.mp3"
+    },
+    {
+      "name": "JustBells",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells/20Minute-JustBells.mp3"
+    },
+    {
+      "name": "JustBells",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells/25Minute-JustBells.mp3"
+    },
+    {
+      "name": "JustBells",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells/30Minute-JustBells.mp3"
+    },
+    {
+      "name": "JustBells",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Bells%20Assisted%20Meditation/Just%20Bells/5Minute-JustBells.mp3"
+    }
+  ],
+  "guided": [
+    {
+      "name": "Breathing",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Guided%20Meditation/affectionate%20breathing.mp3"
+    },
+    {
+      "name": "Bodyscan",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Guided%20Meditation/bodyscan.mp3"
+    },
+    {
+      "name": "Candle",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Guided%20Meditation/candle.mp3"
+    },
+    {
+      "name": "Noting Emotions",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Guided%20Meditation/noting%20emotions.mp3"
+    }
+  ],
+  "meditate": [
+    {
+      "name": "Ancient Rite",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Meditation%20With%20Music/Ancient%20Rite.mp3"
+    },
+    {
+      "name": "Concentration",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Meditation%20With%20Music/Concentration.mp3"
+    },
+    {
+      "name": "Elf Meditation",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Meditation%20With%20Music/Elf%20Meditation.mp3"
+    },
+    {
+      "name": "Wind of the Rainforest",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Meditation%20With%20Music/Wind%20of%20the%20Rainforest.mp3"
+    },
+    {
+      "name": "Lotus",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Meditation/Meditation%20With%20Music/lotus-by-kevin-macleod-from-filmmusic-io.mp3"
+    }
+  ],
+  "relax": [
+    {
+      "name": "River Flute",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Flute/River%20Flute.mp3"
+    },
+    {
+      "name": "River Fire",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Mindfulness/River%20Fire.mp3"
+    },
+    {
+      "name": "Spirit of the Girl",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Mindfulness/Spirit%20of%20the%20Girl.mp3"
+    },
+    {
+      "name": "The Sky of Our Ancestors",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Mindfulness/The%20Sky%20of%20our%20Ancestors.mp3"
+    },
+    {
+      "name": "Truth in the Stones",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Mindfulness/Truth%20in%20the%20Stones.mp3"
+    },
+    {
+      "name": "A Very Brady Special",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Relaxation/A%20Very%20Brady%20Special.mp3"
+    },
+    {
+      "name": "Deep Relaxation",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Relaxation/Deep%20Relaxation.mp3"
+    },
+    {
+      "name": "Ever Mindful",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Relaxation/Ever%20Mindful.mp3"
+    },
+    {
+      "name": "Kalimba Relaxation Music",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Relaxation/Kalimba%20Relaxation%20Music.mp3"
+    },
+    {
+      "name": "Silver Flame",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Relaxation/Silver%20Flame.mp3"
+    },
+    {
+      "name": "Ancient Winds",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Relaxation/ancient-winds-preview-by-kevin-macleod-from-filmmusic-io.mp3"
+    },
+    {
+      "name": "Adding the Sun",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Trans/Adding%20the%20Sun.mp3"
+    },
+    {
+      "name": "Magic Scout (Cottages)",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Trans/Magic%20Scout%20-%20Cottages.mp3"
+    },
+    {
+      "name": "Screen Saver",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Trans/Screen%20Saver.mp3"
+    },
+    {
+      "name": "Shadowlands (Horizon)",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Relaxation%20Music/Trans/Shadowlands%201%20-%20Horizon.mp3"
+    }
+  ],
+  "sleep": [
+    {
+      "name": "Yoga Nidra - Intro",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Sleep/Yoga%20Nidra-%20Sleep%20Sessions%20-%2001%20Intro.mp3"
+    },
+    {
+      "name": "Yoga Nidra - Healing Darkness",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Sleep/Yoga%20Nidra-%20Sleep%20Sessions%20-%2002%20Healing%20Darkness.mp3"
+    },
+    {
+      "name": "Yoga Nidra - Bone Breathing",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Sleep/Yoga%20Nidra-%20Sleep%20Sessions%20-%2003%20Bone%20Breathing.mp3"
+    },
+    {
+      "name": "Yoga Nidra - Expanding Awareness",
+      "link": "https://storage.googleapis.com/caronaapp/music_uhum/Sleep/Yoga%20Nidra-%20Sleep%20Sessions%20-%2004%20Expanding%20Awareness.mp3"
+    }
+  ]
+}

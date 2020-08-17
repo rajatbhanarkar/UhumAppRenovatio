@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    tools:context=".MentalHealthActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="@dimen/_15sdp">
+
+        <ImageView
+            android:id="@+id/ivmhaback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:background="@color/periwinkle"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Select Language"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="15dp"
+        android:layout_alignParentRight="true"
+        app:cardCornerRadius="@dimen/_27sdp">
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/palePink"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginBottom="-10dp"
+        app:cardElevation="15dp"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="@dimen/_35sdp">
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/yellow2"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/skinColor"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_15sdp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginBottom="@dimen/_60sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/lightSkin">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="English"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/periwinkle">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Hindi"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/palePink">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Marathi"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/skinColor">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Gujarati"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/lightSkin">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Punjabi"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/periwinkle">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Bengali"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/palePink">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:fontFamily="@font/opensans"
+                            android:text="Tamil"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/skinColor">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Telugu"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/lightSkin">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Odia"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/periwinkle">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Kannada"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/palePink">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Malyalam"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/skinColor">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Kashmiri"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/lightSkin">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Assamese"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/periwinkle">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="French"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/palePink">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Spanish"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/skinColor">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Persian"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/lightSkin">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="German"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/periwinkle">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Japanese"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/palePink">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:fontFamily="@font/opensans"
+                            android:text="Italian"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/skinColor">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Korean"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/lightSkin">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Russian"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/periwinkle">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Mandarin"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/palePink">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Portugese"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/skinColor">
+
+                        <com.theophrast.ui.widget.SquareImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+
+                            android:fontFamily="@font/opensans"
+                            android:text="Arabic"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "918561176825",
+    "firebase_url": "https://therenovatiouhumapp.firebaseio.com",
+    "project_id": "therenovatiouhumapp",
+    "storage_bucket": "therenovatiouhumapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918561176825:android:0ffa5436395deafa3d3628",
+        "android_client_info": {
+          "package_name": "com.rennovatio.uhumapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918561176825-3d5u4d3gr1vadpvslsqesl0lfdbki0ir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rennovatio.uhumapp",
+            "certificate_hash": "9367bdef3a69916a104bb4ba6eb630c061d18483"
+          }
+        },
+        {
+          "client_id": "918561176825-79ba5md37npu12q8dpr29l2mbsuja8vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdHScram-Etkqn4z4f5dG0c13jqdvI_50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918561176825-79ba5md37npu12q8dpr29l2mbsuja8vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
